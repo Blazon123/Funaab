@@ -17,8 +17,11 @@
 body {
 	background-image: url(images/original\ logo.jpeg);
 	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-position: fixed;
 	background-size: cover;
-	/* background-position: fixed; */
+	/* overflow: hidden; */
 	box-sizing: border-box;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
@@ -259,12 +262,122 @@ border: 1px solid #E9FFD9;
 		padding: 10px 15px;
 }
 
+.section2 {
+	border: 1px solid #E3F7FC;
+		background-color: #E3F7FC;
+		border-radius: 8px;
+		color: #555555;
+	
+	font-size: 13px;
+	max-width: 1000px;
+	width: 100%;
+	/* padding-bottom: 10px;
+	padding-right: 80px;
+	margin-left: 30px; */
+	margin: 10px;
+	padding: 10px 36px;
+}
+
+.section2 h3{
+	font-weight: 500;
+font-size: 18px;
+margin: 10px 0px;
+}
+
+.section2 p {
+	font-weight: lighter;
+font-size: 13px;
+margin: 0px 0px 10px;
+}
+i{
+	color: #337AB7;
+}
+
+
+.section3{
+border: 1px solid #E3F7FC;
+	background-color: #E3F7FC;
+border-radius: 8px;
+color: #555555;
+font-size:13px ;
+max-width: 1000px;
+width: 100%;
+/* padding-bottom: 10px;
+padding-right: 80px;
+margin-left: 30px; */
+ margin: 10px;
+	padding: 10px 36px;
+}
+
+.section3 h3 {
+	font-weight: 500;
+	font-size: 18px;
+	margin: 10px 0px;
+}
+
+.section3 h4 {
+	font-weight: lighter;
+	font-size: 13px;
+	/* margin: 0px 0px 10px; */
+}
+.section4 {
+	border: 1px solid #E3F7FC;
+		background-color: #E3F7FC;
+	border-radius: 8px;
+	color: #555555;
+	
+	font-size:13px ;
+	max-width: 1000px;
+	width: 100%;
+	/* padding-bottom: 10px;
+	padding-right: 80px;
+	margin-left: 30px; */
+margin: 10px;
+	padding: 10px 36px;
+}
+
+.section4 h4 {
+	font-weight: lighter;
+	font-size: 13px;
+	margin: 10px;
+	padding: 10px 36px;
+}
+
+.section4 h4 span {
+	font-size: 13px;
+	color: #337AB7;
+}
+
+.wrapper{
+	background-color: #47651B66;
+	font-size: 13px;
+	padding: 20px 10px ;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.wrapper img{
+	/* float: right; */
+	/* width: 100px; */
+		/* height: 100px; */
+}
+
+.box1{
+	/* display: block;
+	color: rgb(126, 126, 0);
+	line-height: 1;
+	font-size: px;
+	font-weight: lighter; */
+	/* border: 1px solid black; */
+	
+	
+	
+}
 /* main end */
 
 /* footer */
 .footer{
 	font-size: 12px;
-	margin-top: 50%;
+	/* margin-top: 50%; */
 	display: flex;
 	justify-content: center;
 	border-top: 1px dashed yellow;

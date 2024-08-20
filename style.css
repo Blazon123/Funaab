@@ -15,7 +15,7 @@
 	line-height: 1.5;
 }
 body {
-	background-image: url(images/backgroun\ pic.jpeg);
+	background-image: url(images/original\ logo.jpeg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: fixed; */
@@ -143,7 +143,8 @@ h3 {
 	color: white !important;
 	/* border: 1px solid rgb(81, 119, 6); */
 	width: 1200px;
-	padding: 5px;
+	padding: 0px 10px;
+	margin: 0px 5px 0px 0px;
 	/* background-color: rgb(81, 119, 6); */
 	
 }
@@ -168,29 +169,96 @@ h3 {
 	}
 }
 /* main start */
+.section{
+	margin-top: 20px;
+	margin-left: 100px;
+		margin-right: 100px;
+}
+
 .section1{
 	border: 1px solid transparent;
-	background-color: rgba(96, 121, 42, 0.4);
+	background-color: #47651B66;
 	color: aqua;
 	font-weight: lighter;
 	font-size: 12px;
 	max-width: 1000px;
 	width: 100%;
-	margin-left: 200px;
-	margin-right: 250px;
-
+ padding-bottom: 10px;
+ padding-right: 80px;
+ margin-left: 30px;
+ 
 	
 
 }
 .butt {
-	padding: 6px;
+	padding: 6px 12px;
 	background-color: rgb(64, 206, 192);
 	color: #fff;
 	font-weight: 600;
 	font-size: 15px;
 	border-radius: 5px;
+	margin: 5px 10px;
 
 }
+
+.grid1{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 20px;
+	gap: 0;
+	width: 100%; */
+	max-width: 100px;
+	/* margin-left: 50px;
+    margin-right: 50px; */
+
+}
+span{
+	font-weight: bolder;
+	font-size: 13px;
+}
+.grid1, h3{
+	font-size: 24px;
+	margin: 20px 0px 10px;
+}
+.grid1,
+p{
+	font-size: 13px;
+	margin: 10px 0px 10px;
+}
+.secbutt{
+	padding: 6px 12px;
+		background-color: #337AB7;
+		color: #fff;
+		font-weight: 600;
+		font-size: 15px;
+		border-radius: 5px;
+}
+.sec-box1{
+border: 1px solid #E9FFD9;
+	background-color: #E9FFD9;
+	border-radius: 8px;
+	color: #555555;
+	margin: 20px;
+	padding: 10px 15px;
+		
+}
+.sec-box2 {
+	border: 1px solid #FFF8C4;
+	background-color: #FFF8C4;
+	border-radius: 8px;
+	color: #555555;
+	margin: 20px;
+		padding: 10px 15px;
+}
+.sec-box3 {
+	border: 1px solid #E9FFD9;
+	background-color:#E9FFD9 ;
+	border-radius: 8px;
+	color: #555555;
+	margin: 20px;
+		padding: 10px 15px;
+}
+
 /* main end */
 
 /* footer */
